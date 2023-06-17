@@ -18,23 +18,31 @@ The for function is used to take each line from the main file.
 ### Step 6: 
 Write() is used to write the lines of main file to the empty file or to the directed file.
 ## PROGRAM:
+```
 with open("text.txt","r") as f1:
     data=f1.read()
 with open("data.txt","w") as f2:
     f2.write(data)
+```
 ## TEXT FILE:
+```
  with open("text.txt",'w')as fp:
 
   fp.write("Hello World")
   fp.write("\nWelcome to Python")
   fp.write("\nHave a Good Day")
+```
 ## EMPTY FILE:
+```
 with open("data.txt","w") as fd:
  fd.write("")
+```
 ## Copyed file:
+```
 with open("data.txt","r") as f2:
   data1=f2.read()
   print(data)
+```
 ### OUTPUT:
 <img width="335" alt="1" src="https://github.com/Rohithravi333/copy-file/assets/119394126/dfc4093b-d903-4082-8a86-d275d91fe135">
 
